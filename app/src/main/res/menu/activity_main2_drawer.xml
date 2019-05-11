@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Fragments"
+            android:icon="@drawable/ic_fragments"
+            android:title="Fragments" />
+        <item
+            android:id="@+id/nav_SharedPreferences"
+            android:icon="@drawable/ic_shared_preferences"
+            android:title="Shared Preferences" />
+        <item
+            android:id="@+id/nav_Broadcoast_receivers"
+            android:icon="@drawable/ic_broadcast"
+            android:title="Broadcasts" />
+
+        <item
+            android:id="@+id/nav_sqlite"
+            android:icon="@drawable/ic_sqlite"
+            android:title="Sqlite" />
+
+    </group>
+
+
+
+<group android:checkableBehavior="single">
+        <item
+            android:id="@+id/search"
+            android:icon="@drawable/ic_training"
+            android:title="Violence" />
+
+    </group>
+
+
+
+</menu>

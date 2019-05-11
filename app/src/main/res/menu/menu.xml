@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.munguriek.zeroapp.MainActivity">
+    <item
+        android:id="@+id/sqlite"
+        android:orderInCategory="100"
+        android:title="Sqlite"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/fragments"
+        android:orderInCategory="100"
+        android:title="Fragments"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/shared"
+        android:orderInCategory="100"
+        android:title="Shared preferences"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/exit"
+        android:orderInCategory="100"
+        android:title="Violence acts"
+        app:showAsAction="never" />
+
+</menu>
